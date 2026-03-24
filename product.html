@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse the full SERWAA'S ESSENCE fragrance collection — woody, floral, fresh and oriental scents.">
+    <title>The Collection | SERWAA'S ESSENCE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar dark-nav">
+        <div class="logo">SERWAA'S ESSENCE</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html" class="active">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button class="hamburger" id="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+   
+    <div class="page-banner">
+        <h1>The <em>Collection</em></h1>
+        <p>Discover your signature scent</p>
+    </div>
+
+    <section class="products-container">
+
+        <aside class="sidebar">
+            <div class="filter-group">
+                <h4>Scent Family</h4>
+                <ul>
+                    <li><label><input type="checkbox" value="woody"> Woody & Earthy</label></li>
+                    <li><label><input type="checkbox" value="floral"> Floral & Sweet</label></li>
+                    <li><label><input type="checkbox" value="fresh"> Citrus & Fresh</label></li>
+                    <li><label><input type="checkbox" value="oriental"> Oriental Spice</label></li>
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h4>Intensity</h4>
+                <ul>
+                    <li><label><input type="radio" name="int" value="edp"> Eau de Parfum</label></li>
+                    <li><label><input type="radio" name="int" value="parfum"> Pure Parfum</label></li>
+                    <li><label><input type="radio" name="int" value="cologne"> Cologne</label></li>
+                </ul>
+            </div>
+        </aside>
+
+        <main class="shop-main">
+            <header class="shop-header">
+                <p>Showing <strong>8</strong> curated fragrances</p>
+            </header>
+
+            <div class="product-grid">
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="velvet aud.jpeg" alt="Velvet Oud">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Woody</span>
+                        <h3>Velvet Oud</h3>
+                        <p class="price">₵2,450.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="rose noir.jpeg" alt="Rose Noire">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Floral</span>
+                        <h3>Rose Noire</h3>
+                        <p class="price">₵1,900.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="citrus.jpeg" alt="Citrus Grove">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Fresh</span>
+                        <h3>Citrus Grove</h3>
+                        <p class="price">₵1,550.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="midnight-rose.jpeg" alt="Amber Night">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Oriental</span>
+                        <h3>Amber Night</h3>
+                        <p class="price">₵2,100.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="oud-of-dubai.jpeg" alt="Oud of Dubai">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Woody</span>
+                        <h3>Oud of Dubai</h3>
+                        <p class="price">₵2,800.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="midnight-rose.jpeg" alt="Midnight Rose">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Floral</span>
+                        <h3>Midnight Rose</h3>
+                        <p class="price">₵1,750.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="citrus.jpeg" alt="Desert Wind">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Oriental</span>
+                        <h3>Desert Wind</h3>
+                        <p class="price">₵1,650.00</p>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="image-wrapper">
+                        <img src="rose noir.jpeg" alt="Royal Bloom">
+                        <div class="overlay">
+                            <button class="btn-quick-view">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="item-details">
+                        <span class="category">Fresh</span>
+                        <h3>Royal Bloom</h3>
+                        <p class="price">₵1,450.00</p>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </section>
+
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo">SERWAA'S ESSENCE</div>
+                <p>Crafting memories through the art of fine perfumery since 2025. Every drop tells a story of elegance and heritage.</p>
+                <div class="social-icons">
+                    <a href="#">Instagram</a>
+                    <a href="#">Pinterest</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">The Collection</a></li>
+                    <li><a href="about.html">Our Story</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4>Join the Private List</h4>
+                <p>Receive exclusive access to new launches, private sales, and olfactive events.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Email Address" required>
+                    <button type="submit">Join</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 SERWAA'S ESSENCE. All Rights Reserved.</p>
+            <p>Designed and Developed by ♟Ohene-Nyarko-Maketh</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
